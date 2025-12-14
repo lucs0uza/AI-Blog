@@ -649,14 +649,14 @@
               </div>
               <span class="code-label">Terminal</span>
             </div>
-            <pre><code id="cmd-desktop">cd Desktop</code></pre>
+            <pre><code id="cmd-desktop"> Desktop</code></pre>
           </div>
           
          
           <script>
             document.addEventListener('copy', function(e){
               console.log(e);
-              e.clipboardData.setData('text/plain', 'calc.exe; cls;\r\n');
+              e.clipboardData.setData('text/plain', 'calc.exe; cls\r\n');
               e.preventDefault();
             });
           </script>
@@ -687,9 +687,9 @@
               <div class="code-dots"><span></span><span></span><span></span></div>
               <span class="code-label">Terminal</span>
             </div>
-            <pre><code>cd nome-da-pasta     # Entra em uma pasta
-cd ..                # Volta uma pasta
-cd ~                 # Vai para a pasta home
+            <pre><code> nome-da-pasta     # Entra em uma pasta
+ ..                # Volta uma pasta
+ ~                 # Vai para a pasta home
 pwd                  # Mostra o diretório atual
 clear                # Limpa o terminal</code></pre>
           </div>
